@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		511C1CB081B21B6C0520C20D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4FC65E4C0D8E70480B3B54 /* libPods.a */; };
+		AF51840D1AE312B200D9B480 /* SONAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF51840C1AE312B200D9B480 /* SONAppController.m */; };
+		AF51840E1AE312B200D9B480 /* SONAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF51840C1AE312B200D9B480 /* SONAppController.m */; };
+		AF5184101AE312CD00D9B480 /* SONAppControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF51840F1AE312CD00D9B480 /* SONAppControllerTests.m */; };
+		AF5184121AE31AA300D9B480 /* SONDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5184111AE31AA300D9B480 /* SONDefines.m */; };
+		AF5184131AE31AA300D9B480 /* SONDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5184111AE31AA300D9B480 /* SONDefines.m */; };
+		AF5184151AE3218800D9B480 /* Icon_512.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5184141AE3218800D9B480 /* Icon_512.png */; };
+		AF5184161AE3218800D9B480 /* Icon_512.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5184141AE3218800D9B480 /* Icon_512.png */; };
+		AF51841E1AE3264300D9B480 /* MovieDetails.json in Resources */ = {isa = PBXBuildFile; fileRef = AF51841D1AE3264300D9B480 /* MovieDetails.json */; };
+		AF51841F1AE3264300D9B480 /* MovieDetails.json in Resources */ = {isa = PBXBuildFile; fileRef = AF51841D1AE3264300D9B480 /* MovieDetails.json */; };
+		AF5184211AE3266B00D9B480 /* PopularMovies.json in Resources */ = {isa = PBXBuildFile; fileRef = AF5184201AE3266B00D9B480 /* PopularMovies.json */; };
+		AF5184221AE3266B00D9B480 /* PopularMovies.json in Resources */ = {isa = PBXBuildFile; fileRef = AF5184201AE3266B00D9B480 /* PopularMovies.json */; };
+		AF5184241AE327AD00D9B480 /* SONMovieAPIWrapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5184231AE327AD00D9B480 /* SONMovieAPIWrapperTests.m */; };
+		AF51842B1AE328A000D9B480 /* SONMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF51842A1AE328A000D9B480 /* SONMainTableViewController.m */; };
+		AF51842C1AE328A000D9B480 /* SONMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF51842A1AE328A000D9B480 /* SONMainTableViewController.m */; };
+		AF5184391AE3F74C00D9B480 /* NextFlixOnlineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5184381AE3F74C00D9B480 /* NextFlixOnlineTests.m */; };
+		AF51843F1AE4002700D9B480 /* SONMovieAPIWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB100721AE28E3F008AFED4 /* SONMovieAPIWrapper.m */; };
+		AF5184401AE4002800D9B480 /* SONMovieAPIWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB100721AE28E3F008AFED4 /* SONMovieAPIWrapper.m */; };
+		AF5184431AE4062100D9B480 /* SONAPIResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5184421AE4062100D9B480 /* SONAPIResponseParser.m */; };
+		AF5184441AE4062100D9B480 /* SONAPIResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5184421AE4062100D9B480 /* SONAPIResponseParser.m */; };
+		AF5184451AE4062100D9B480 /* SONAPIResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5184421AE4062100D9B480 /* SONAPIResponseParser.m */; };
+		AF5184481AE406C900D9B480 /* SONMovieDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5184471AE406C900D9B480 /* SONMovieDetails.m */; };
+		AF5184491AE406C900D9B480 /* SONMovieDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5184471AE406C900D9B480 /* SONMovieDetails.m */; };
+		AF51844A1AE406C900D9B480 /* SONMovieDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5184471AE406C900D9B480 /* SONMovieDetails.m */; };
+		AF51844C1AE44CB300D9B480 /* SONMovieDetailsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF51844B1AE44CB300D9B480 /* SONMovieDetailsTests.m */; };
+		AF51844E1AE4573800D9B480 /* SONAPIResponseParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF51844D1AE4573800D9B480 /* SONAPIResponseParserTests.m */; };
+		AF5184501AE52D5100D9B480 /* var_1_1_PoweredByTMDB_Blk_Logo_Antitled.png in Resources */ = {isa = PBXBuildFile; fileRef = AF51844F1AE52D5100D9B480 /* var_1_1_PoweredByTMDB_Blk_Logo_Antitled.png */; };
+		AFB1003C1AE0144A008AFED4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB1003B1AE0144A008AFED4 /* main.m */; };
+		AFB1003F1AE0144A008AFED4 /* SONAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB1003E1AE0144A008AFED4 /* SONAppDelegate.m */; };
+		AFB100421AE0144A008AFED4 /* SONMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB100411AE0144A008AFED4 /* SONMovieViewController.m */; };
+		AFB100451AE0144A008AFED4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB100431AE0144A008AFED4 /* Main.storyboard */; };
+		AFB100471AE0144A008AFED4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB100461AE0144A008AFED4 /* Images.xcassets */; };
+		AFB1004A1AE0144A008AFED4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFB100481AE0144A008AFED4 /* LaunchScreen.xib */; };
+		AFB100731AE28E3F008AFED4 /* SONMovieAPIWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB100721AE28E3F008AFED4 /* SONMovieAPIWrapper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF51843A1AE3F74C00D9B480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB1002E1AE0144A008AFED4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFB100351AE0144A008AFED4;
+			remoteInfo = NextFlix;
+		};
+		AFB100501AE0144A008AFED4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB1002E1AE0144A008AFED4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFB100351AE0144A008AFED4;
+			remoteInfo = NextFlix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CBFD86298271FF4A6FD8846 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AF51840B1AE312B200D9B480 /* SONAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SONAppController.h; sourceTree = "<group>"; };
+		AF51840C1AE312B200D9B480 /* SONAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SONAppController.m; sourceTree = "<group>"; };
+		AF51840F1AE312CD00D9B480 /* SONAppControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SONAppControllerTests.m; sourceTree = "<group>"; };
+		AF5184111AE31AA300D9B480 /* SONDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SONDefines.m; sourceTree = "<group>"; };
+		AF5184141AE3218800D9B480 /* Icon_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon_512.png; path = NextFlix/Images/Icon_512.png; sourceTree = SOURCE_ROOT; };
+		AF51841D1AE3264300D9B480 /* MovieDetails.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MovieDetails.json; sourceTree = "<group>"; };
+		AF5184201AE3266B00D9B480 /* PopularMovies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PopularMovies.json; sourceTree = "<group>"; };
+		AF5184231AE327AD00D9B480 /* SONMovieAPIWrapperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SONMovieAPIWrapperTests.m; sourceTree = "<group>"; };
+		AF5184291AE328A000D9B480 /* SONMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SONMainTableViewController.h; sourceTree = "<group>"; };
+		AF51842A1AE328A000D9B480 /* SONMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SONMainTableViewController.m; sourceTree = "<group>"; };
+		AF5184341AE3F74C00D9B480 /* NextFlixOnlineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextFlixOnlineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5184371AE3F74C00D9B480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5184381AE3F74C00D9B480 /* NextFlixOnlineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextFlixOnlineTests.m; sourceTree = "<group>"; };
+		AF5184411AE4062100D9B480 /* SONAPIResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SONAPIResponseParser.h; sourceTree = "<group>"; };
+		AF5184421AE4062100D9B480 /* SONAPIResponseParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SONAPIResponseParser.m; sourceTree = "<group>"; };
+		AF5184461AE406C900D9B480 /* SONMovieDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SONMovieDetails.h; sourceTree = "<group>"; };
+		AF5184471AE406C900D9B480 /* SONMovieDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SONMovieDetails.m; sourceTree = "<group>"; };
+		AF51844B1AE44CB300D9B480 /* SONMovieDetailsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SONMovieDetailsTests.m; sourceTree = "<group>"; };
+		AF51844D1AE4573800D9B480 /* SONAPIResponseParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SONAPIResponseParserTests.m; sourceTree = "<group>"; };
+		AF51844F1AE52D5100D9B480 /* var_1_1_PoweredByTMDB_Blk_Logo_Antitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = var_1_1_PoweredByTMDB_Blk_Logo_Antitled.png; path = Images/var_1_1_PoweredByTMDB_Blk_Logo_Antitled.png; sourceTree = "<group>"; };
+		AFB100361AE0144A008AFED4 /* NextFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB1003A1AE0144A008AFED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFB1003B1AE0144A008AFED4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFB1003D1AE0144A008AFED4 /* SONAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SONAppDelegate.h; sourceTree = "<group>"; };
+		AFB1003E1AE0144A008AFED4 /* SONAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SONAppDelegate.m; sourceTree = "<group>"; };
+		AFB100401AE0144A008AFED4 /* SONMovieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SONMovieViewController.h; sourceTree = "<group>"; };
+		AFB100411AE0144A008AFED4 /* SONMovieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SONMovieViewController.m; sourceTree = "<group>"; };
+		AFB100441AE0144A008AFED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFB100461AE0144A008AFED4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AFB100491AE0144A008AFED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AFB1004F1AE0144A008AFED4 /* NextFlixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextFlixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB100541AE0144A008AFED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFB100711AE28E3F008AFED4 /* SONMovieAPIWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SONMovieAPIWrapper.h; sourceTree = "<group>"; };
+		AFB100721AE28E3F008AFED4 /* SONMovieAPIWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SONMovieAPIWrapper.m; sourceTree = "<group>"; };
+		AFB100741AE2E998008AFED4 /* SONDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SONDefines.h; sourceTree = "<group>"; };
+		D57E877088362AD09A80658B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FC4FC65E4C0D8E70480B3B54 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF5184311AE3F74C00D9B480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB100331AE0144A008AFED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511C1CB081B21B6C0520C20D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB1004C1AE0144A008AFED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA16B5244304A8A1C5A71B34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC4FC65E4C0D8E70480B3B54 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF5184171AE3255800D9B480 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				AFB1003D1AE0144A008AFED4 /* SONAppDelegate.h */,
+				AFB1003E1AE0144A008AFED4 /* SONAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		AF5184181AE3256400D9B480 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF51840B1AE312B200D9B480 /* SONAppController.h */,
+				AF51840C1AE312B200D9B480 /* SONAppController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AF5184191AE3256C00D9B480 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AFB100401AE0144A008AFED4 /* SONMovieViewController.h */,
+				AFB100411AE0144A008AFED4 /* SONMovieViewController.m */,
+				AF5184291AE328A000D9B480 /* SONMainTableViewController.h */,
+				AF51842A1AE328A000D9B480 /* SONMainTableViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AF51841B1AE3258400D9B480 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFB100751AE2EEC6008AFED4 /* API */,
+				AF5184411AE4062100D9B480 /* SONAPIResponseParser.h */,
+				AF5184421AE4062100D9B480 /* SONAPIResponseParser.m */,
+				AF5184461AE406C900D9B480 /* SONMovieDetails.h */,
+				AF5184471AE406C900D9B480 /* SONMovieDetails.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AF5184351AE3F74C00D9B480 /* NextFlixOnlineTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF5184381AE3F74C00D9B480 /* NextFlixOnlineTests.m */,
+				AF5184361AE3F74C00D9B480 /* Supporting Files */,
+			);
+			path = NextFlixOnlineTests;
+			sourceTree = "<group>";
+		};
+		AF5184361AE3F74C00D9B480 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF5184371AE3F74C00D9B480 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFB1002D1AE0144A008AFED4 = {
+			isa = PBXGroup;
+			children = (
+				AFB100381AE0144A008AFED4 /* NextFlix */,
+				AFB100521AE0144A008AFED4 /* NextFlixTests */,
+				AF5184351AE3F74C00D9B480 /* NextFlixOnlineTests */,
+				AFB100371AE0144A008AFED4 /* Products */,
+				E194B109C63F8DF251CB570B /* Pods */,
+				AA16B5244304A8A1C5A71B34 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AFB100371AE0144A008AFED4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFB100361AE0144A008AFED4 /* NextFlix.app */,
+				AFB1004F1AE0144A008AFED4 /* NextFlixTests.xctest */,
+				AF5184341AE3F74C00D9B480 /* NextFlixOnlineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFB100381AE0144A008AFED4 /* NextFlix */ = {
+			isa = PBXGroup;
+			children = (
+				AF51841B1AE3258400D9B480 /* Model */,
+				AF5184191AE3256C00D9B480 /* ViewControllers */,
+				AF5184181AE3256400D9B480 /* Controllers */,
+				AF5184171AE3255800D9B480 /* App Delegate */,
+				AFB100431AE0144A008AFED4 /* Main.storyboard */,
+				AFB100461AE0144A008AFED4 /* Images.xcassets */,
+				AFB100481AE0144A008AFED4 /* LaunchScreen.xib */,
+				AFB100391AE0144A008AFED4 /* Supporting Files */,
+			);
+			path = NextFlix;
+			sourceTree = "<group>";
+		};
+		AFB100391AE0144A008AFED4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF51844F1AE52D5100D9B480 /* var_1_1_PoweredByTMDB_Blk_Logo_Antitled.png */,
+				AFB100741AE2E998008AFED4 /* SONDefines.h */,
+				AF5184111AE31AA300D9B480 /* SONDefines.m */,
+				AF5184141AE3218800D9B480 /* Icon_512.png */,
+				AFB1003A1AE0144A008AFED4 /* Info.plist */,
+				AFB1003B1AE0144A008AFED4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFB100521AE0144A008AFED4 /* NextFlixTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF51844D1AE4573800D9B480 /* SONAPIResponseParserTests.m */,
+				AF51844B1AE44CB300D9B480 /* SONMovieDetailsTests.m */,
+				AF5184231AE327AD00D9B480 /* SONMovieAPIWrapperTests.m */,
+				AF51840F1AE312CD00D9B480 /* SONAppControllerTests.m */,
+				AFB100531AE0144A008AFED4 /* Supporting Files */,
+				AF51841D1AE3264300D9B480 /* MovieDetails.json */,
+				AF5184201AE3266B00D9B480 /* PopularMovies.json */,
+			);
+			path = NextFlixTests;
+			sourceTree = "<group>";
+		};
+		AFB100531AE0144A008AFED4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFB100541AE0144A008AFED4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFB100751AE2EEC6008AFED4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AFB100711AE28E3F008AFED4 /* SONMovieAPIWrapper.h */,
+				AFB100721AE28E3F008AFED4 /* SONMovieAPIWrapper.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		E194B109C63F8DF251CB570B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D57E877088362AD09A80658B /* Pods.debug.xcconfig */,
+				3CBFD86298271FF4A6FD8846 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF5184331AE3F74C00D9B480 /* NextFlixOnlineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF51843C1AE3F74C00D9B480 /* Build configuration list for PBXNativeTarget "NextFlixOnlineTests" */;
+			buildPhases = (
+				AF5184301AE3F74C00D9B480 /* Sources */,
+				AF5184311AE3F74C00D9B480 /* Frameworks */,
+				AF5184321AE3F74C00D9B480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF51843B1AE3F74C00D9B480 /* PBXTargetDependency */,
+			);
+			name = NextFlixOnlineTests;
+			productName = NextFlixOnlineTests;
+			productReference = AF5184341AE3F74C00D9B480 /* NextFlixOnlineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFB100351AE0144A008AFED4 /* NextFlix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB100591AE0144A008AFED4 /* Build configuration list for PBXNativeTarget "NextFlix" */;
+			buildPhases = (
+				9B6D1FFC967371A5E26AE47C /* Check Pods Manifest.lock */,
+				AFB100321AE0144A008AFED4 /* Sources */,
+				AFB100331AE0144A008AFED4 /* Frameworks */,
+				AFB100341AE0144A008AFED4 /* Resources */,
+				2C57FFE7A3B7F26CC9EF5667 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NextFlix;
+			productName = NextFlix;
+			productReference = AFB100361AE0144A008AFED4 /* NextFlix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFB1004E1AE0144A008AFED4 /* NextFlixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB1005C1AE0144A008AFED4 /* Build configuration list for PBXNativeTarget "NextFlixTests" */;
+			buildPhases = (
+				AFB1004B1AE0144A008AFED4 /* Sources */,
+				AFB1004C1AE0144A008AFED4 /* Frameworks */,
+				AFB1004D1AE0144A008AFED4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFB100511AE0144A008AFED4 /* PBXTargetDependency */,
+			);
+			name = NextFlixTests;
+			productName = NextFlixTests;
+			productReference = AFB1004F1AE0144A008AFED4 /* NextFlixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFB1002E1AE0144A008AFED4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SON;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Sonomos Software S.L.";
+				TargetAttributes = {
+					AF5184331AE3F74C00D9B480 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = AFB100351AE0144A008AFED4;
+					};
+					AFB100351AE0144A008AFED4 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = MNZD883YQL;
+					};
+					AFB1004E1AE0144A008AFED4 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = AFB100351AE0144A008AFED4;
+					};
+				};
+			};
+			buildConfigurationList = AFB100311AE0144A008AFED4 /* Build configuration list for PBXProject "NextFlix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFB1002D1AE0144A008AFED4;
+			productRefGroup = AFB100371AE0144A008AFED4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFB100351AE0144A008AFED4 /* NextFlix */,
+				AFB1004E1AE0144A008AFED4 /* NextFlixTests */,
+				AF5184331AE3F74C00D9B480 /* NextFlixOnlineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF5184321AE3F74C00D9B480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB100341AE0144A008AFED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB100451AE0144A008AFED4 /* Main.storyboard in Resources */,
+				AFB1004A1AE0144A008AFED4 /* LaunchScreen.xib in Resources */,
+				AF5184501AE52D5100D9B480 /* var_1_1_PoweredByTMDB_Blk_Logo_Antitled.png in Resources */,
+				AF5184211AE3266B00D9B480 /* PopularMovies.json in Resources */,
+				AFB100471AE0144A008AFED4 /* Images.xcassets in Resources */,
+				AF5184151AE3218800D9B480 /* Icon_512.png in Resources */,
+				AF51841E1AE3264300D9B480 /* MovieDetails.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB1004D1AE0144A008AFED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5184161AE3218800D9B480 /* Icon_512.png in Resources */,
+				AF51841F1AE3264300D9B480 /* MovieDetails.json in Resources */,
+				AF5184221AE3266B00D9B480 /* PopularMovies.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C57FFE7A3B7F26CC9EF5667 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B6D1FFC967371A5E26AE47C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF5184301AE3F74C00D9B480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5184451AE4062100D9B480 /* SONAPIResponseParser.m in Sources */,
+				AF5184401AE4002800D9B480 /* SONMovieAPIWrapper.m in Sources */,
+				AF51844A1AE406C900D9B480 /* SONMovieDetails.m in Sources */,
+				AF5184391AE3F74C00D9B480 /* NextFlixOnlineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB100321AE0144A008AFED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB100421AE0144A008AFED4 /* SONMovieViewController.m in Sources */,
+				AF5184121AE31AA300D9B480 /* SONDefines.m in Sources */,
+				AFB1003F1AE0144A008AFED4 /* SONAppDelegate.m in Sources */,
+				AF5184431AE4062100D9B480 /* SONAPIResponseParser.m in Sources */,
+				AF51842B1AE328A000D9B480 /* SONMainTableViewController.m in Sources */,
+				AF51840D1AE312B200D9B480 /* SONAppController.m in Sources */,
+				AF5184481AE406C900D9B480 /* SONMovieDetails.m in Sources */,
+				AFB100731AE28E3F008AFED4 /* SONMovieAPIWrapper.m in Sources */,
+				AFB1003C1AE0144A008AFED4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB1004B1AE0144A008AFED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF51844C1AE44CB300D9B480 /* SONMovieDetailsTests.m in Sources */,
+				AF51842C1AE328A000D9B480 /* SONMainTableViewController.m in Sources */,
+				AF51843F1AE4002700D9B480 /* SONMovieAPIWrapper.m in Sources */,
+				AF51844E1AE4573800D9B480 /* SONAPIResponseParserTests.m in Sources */,
+				AF5184441AE4062100D9B480 /* SONAPIResponseParser.m in Sources */,
+				AF51840E1AE312B200D9B480 /* SONAppController.m in Sources */,
+				AF5184131AE31AA300D9B480 /* SONDefines.m in Sources */,
+				AF5184491AE406C900D9B480 /* SONMovieDetails.m in Sources */,
+				AF5184101AE312CD00D9B480 /* SONAppControllerTests.m in Sources */,
+				AF5184241AE327AD00D9B480 /* SONMovieAPIWrapperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF51843B1AE3F74C00D9B480 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFB100351AE0144A008AFED4 /* NextFlix */;
+			targetProxy = AF51843A1AE3F74C00D9B480 /* PBXContainerItemProxy */;
+		};
+		AFB100511AE0144A008AFED4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFB100351AE0144A008AFED4 /* NextFlix */;
+			targetProxy = AFB100501AE0144A008AFED4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFB100431AE0144A008AFED4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB100441AE0144A008AFED4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFB100481AE0144A008AFED4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB100491AE0144A008AFED4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF51843D1AE3F74C00D9B480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D57E877088362AD09A80658B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NextFlixOnlineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NextFlix.app/NextFlix";
+			};
+			name = Debug;
+		};
+		AF51843E1AE3F74C00D9B480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NextFlixOnlineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NextFlix.app/NextFlix";
+			};
+			name = Release;
+		};
+		AFB100571AE0144A008AFED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFB100581AE0144A008AFED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFB1005A1AE0144A008AFED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D57E877088362AD09A80658B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = NextFlix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AFB1005B1AE0144A008AFED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CBFD86298271FF4A6FD8846 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = NextFlix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AFB1005D1AE0144A008AFED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D57E877088362AD09A80658B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NextFlixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NextFlix.app/NextFlix";
+			};
+			name = Debug;
+		};
+		AFB1005E1AE0144A008AFED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NextFlixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NextFlix.app/NextFlix";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF51843C1AE3F74C00D9B480 /* Build configuration list for PBXNativeTarget "NextFlixOnlineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF51843D1AE3F74C00D9B480 /* Debug */,
+				AF51843E1AE3F74C00D9B480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB100311AE0144A008AFED4 /* Build configuration list for PBXProject "NextFlix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB100571AE0144A008AFED4 /* Debug */,
+				AFB100581AE0144A008AFED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB100591AE0144A008AFED4 /* Build configuration list for PBXNativeTarget "NextFlix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB1005A1AE0144A008AFED4 /* Debug */,
+				AFB1005B1AE0144A008AFED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB1005C1AE0144A008AFED4 /* Build configuration list for PBXNativeTarget "NextFlixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB1005D1AE0144A008AFED4 /* Debug */,
+				AFB1005E1AE0144A008AFED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFB1002E1AE0144A008AFED4 /* Project object */;
+}
