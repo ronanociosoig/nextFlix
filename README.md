@@ -42,15 +42,15 @@ Social media integrations would also enhance the user experience by allowing a u
 
 The project uses CocoaPods for dependency management. 
 
-### AFNetworking
+### AFNetworking (https://github.com/AFNetworking/AFNetworking)
 
 AFNetworking was included here only because it was set as a project requirement. In the current application it is sufficient to use NSURLSession instead, as the application does not use any special feature for AFNetworking. 
 
-### Haneke
+### Haneke (https://github.com/Haneke/Haneke)
 
 Haneke is an excellent and simple to use image cache and was developed by one of my colleagues. I have used it in all applications since it was in early development more than a year ago. 
 
-### Motis
+### Motis (https://github.com/mobilejazz/Motis)
 
 Motis is a JSON object mapping tool developed by one of my former colleagues. It simplifies the mapping of JSON object names to values in Objective C objects, performs validations and checking. This is especially useful for complex JSON responses where some of the parameters may be nil, and thus it checks the values and prevents crashes. 
 
