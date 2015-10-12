@@ -11,12 +11,11 @@
 typedef void(^SONPopularMoviesCompletionHandler)(NSArray *movies, NSError *error);
 typedef void(^SONMovieDetailsCompletionHandler)(NSDictionary *movieData, NSError *error);
 typedef void(^SONConfigurationDetailsCompletionHandler)(NSDictionary *movieData, NSError *error);
-@interface SONMovieAPIWrapper : NSObject
 
+@interface SONMovieAPIWrapper : NSObject
 
 @property (strong) NSString *APIKey;
 @property (strong) NSString *rootPath;
-
 
 - (instancetype) initWithRootPath: (NSString*) rootPath andAPIKey: (NSString*) APIKey;
 - (void) loadConfigurationWithConpletionHandler:(SONConfigurationDetailsCompletionHandler) handler;
