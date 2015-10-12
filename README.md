@@ -5,7 +5,7 @@ The application user interface consists of 2 screens, a table view with the titl
 
 
 
-## Requirements: 
+## Requirements
 
 Using the JSON data provided by The Movie DB (https://api.themoviedb.org/3/movie/), 
 create an app that will extract out the current list of popular movies in a list, and show some of the details. 
@@ -13,7 +13,7 @@ create an app that will extract out the current list of popular movies in a list
 The app must use AFNetworking. Use Unit testing with asynchronous tests. 
 
 
-## Discussion: 
+## Discussion
 
 The class structure separates the data fetching from the view controllers by creating a layer that encapsulates all the network requests. 
 
