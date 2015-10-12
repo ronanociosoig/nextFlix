@@ -15,7 +15,7 @@ The app must use AFNetworking. Use Unit testing with asynchronous tests.
 
 ## Discussion: 
 
-The class structure separates the data fetching from the view control by creating a layer that encapsulates all the network requests. 
+The class structure separates the data fetching from the view controllers by creating a layer that encapsulates all the network requests. 
 
 SONMovieAPIWrapper class is the only class that has knowledge of the functionality of the API, with a small exception of extracting some data for the configuration of image URLs in the SONAppController.
 
@@ -52,7 +52,7 @@ Haneke is an excellent and simple to use image cache and was developed by one of
 
 ### Motis
 
-Motis is a JSON object mapping tool developed by one of my colleagues. It simplifies the mapping of JSON object names to values in Objective C objects, performs validations and checking. This is especially useful for complex JSON responses where some of the parameters may be nil, and thus it checks the values and prevents crashes. 
+Motis is a JSON object mapping tool developed by one of my former colleagues. It simplifies the mapping of JSON object names to values in Objective C objects, performs validations and checking. This is especially useful for complex JSON responses where some of the parameters may be nil, and thus it checks the values and prevents crashes. 
 
 ### MBProgressHUD
 
