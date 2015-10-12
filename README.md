@@ -5,7 +5,7 @@ The application user interface consists of 2 screens, a table view with the titl
 
 
 
-Requirements: 
+## Requirements: 
 
 Using the JSON data provided by The Movie DB (https://api.themoviedb.org/3/movie/), 
 create an app that will extract out the current list of popular movies in a list, and show some of the details. 
@@ -13,7 +13,7 @@ create an app that will extract out the current list of popular movies in a list
 The app must use AFNetworking. Use Unit testing with asynchronous tests. 
 
 
-Discussion: 
+## Discussion: 
 
 The class structure separates the data fetching from the view control by creating a layer that encapsulates all the network requests. 
 
@@ -23,7 +23,7 @@ The SONAppController manages all the requests to the API, and notifies the view 
 
 This clean separation ensures that it is simple to extend and maintain. 
 
-Future Work
+## Future Work
 
 The application does not maintain state, so a cache of previous movies would be beneficial to performance. 
 
@@ -38,24 +38,23 @@ It would be interesting to be be able to add ratings to these movies by allowing
 Social media integrations would also enhance the user experience by allowing a user to share a movie they like (or want to see) on their Facebook timeline for example. 
 
 
-3rd Party Libraries 
-
+## 3rd Party Libraries 
 
 The project uses CocoaPods for dependency management. 
 
-AFNetworking
+### AFNetworking
 
 AFNetworking was included here only because it was set as a project requirement. In the current application it is sufficient to use NSURLSession instead, as the application does not use any special feature for AFNetworking. 
 
-Haneke
+### Haneke
 
 Haneke is an excellent and simple to use image cache and was developed by one of my colleagues. I have used it in all applications since it was in early development more than a year ago. 
 
-Motis
+### Motis
 
 Motis is a JSON object mapping tool developed by one of my colleagues. It simplifies the mapping of JSON object names to values in Objective C objects, performs validations and checking. This is especially useful for complex JSON responses where some of the parameters may be nil, and thus it checks the values and prevents crashes. 
 
-MBProgressHUD
+### MBProgressHUD
 
 This is a simple loading overlay that I have used in many projects. The way it is used in this project is less than optimal in that it is added to the tableViewController instead of being a subview of the UIWindow class - thus placing it on top of all the user views. 
  
